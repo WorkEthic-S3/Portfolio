@@ -1,5 +1,11 @@
 # Reader's Guide - Gökay Atalay
 
+## Links to Repositories:
+
+[React Frontend](https://github.com/WorkEthic-S3/S3-IP-FE-GokayAtalay) </br>
+[Laravel Backend](https://github.com/WorkEthic-S3/S3-IP-BE-GokayAtalay) </br>
+[Spring Boot Backend](https://github.com/WorkEthic-S3/S3-IP-BE-SpringBoot-GokayAtalay)
+
 ## Sprint 1
 
 In sprint 1 I have been researching a project and the requirements. I started looking at frameworks to find out what works best for my project. When I looked at the “distributed” part, I found out that you build an application by creating multiple projects that communicate with each other. As a result, you could build each project in a different language/framework and it should work together.
