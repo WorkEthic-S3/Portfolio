@@ -1,145 +1,115 @@
-# Reader's Guide - Gökay Atalay
+ # Reader's Guide - Semester 3 - Gökay Atalay
 
-## Links to Repositories:
+My portfolio for semester 3 of the Software Engineering Bachelor's program, Fontys Hogescholen.
 
-[React Frontend](https://github.com/WorkEthic-S3/S3-IP-FE-GokayAtalay) </br>
-[Laravel Backend](https://github.com/WorkEthic-S3/S3-IP-BE-GokayAtalay) </br>
-[Spring Boot Backend](https://github.com/WorkEthic-S3/S3-IP-BE-SpringBoot-GokayAtalay)
+## 1. Introduction
 
-## Sprint 1
+This file serves as the reader's guide for my semester 3 portfolio. This portfolio contains the products I have developed during the semester. The products this portfolio contains include, but are not limited to: applications (frontend and backend), researches, software-technology guides and more. With these products I wish to prove that I have sufficient knowledge to have reached the learning outcomes. I'll be explaining each section and provide a link to the product the section talks about.
 
-In sprint 1 I have been researching a project and the requirements. I started looking at frameworks to find out what works best for my project. When I looked at the “distributed” part, I found out that you build an application by creating multiple projects that communicate with each other. As a result, you could build each project in a different language/framework and it should work together.
+## 2. Learning Outcomes
 
-I started a number of test projects and tested communication to get an idea of how it all works. I also made some simple documentation to record my findings. I also created Github repositories to keep track of my work.
-
-### LO1 - You design and build user-friendly, full-stack web applications.
-
-#### /Doc
-
-In “Doc” there are a number of word documents in which I have noted my research findings. I've had to do research for several products/topics to better understand them. For the frameworks that I have researched, I have written down all kinds of commands and pieces of code with relevant explanations.
-
-##### /LaravelDocumentation
-
-In this document I have explained several aspects of the framework. How to install the
-Installer and use it to generate a project.
-
-##### /ReactDocumentation
-
-This document describes various aspects of this framework/library
-(everyone says something different): Generating a project, making HTTP requests and
-A well-known npm package specific to React called React Router.
-
------
-#### /Testprojects
-
-In “Test projects” are projects that I have created to test communication and authentication. I tried to have two projects communicate with each other to see which problems arose. I could use those findings for my “real” projects.
-
-By setting up these projects I was able to try out different topics such as a Javascript framework, asynchronous communication and data storage.
-
-##### /Laravel-BE
-	
-This project retrieves data through an API that can be called from a frontend project. Laravel fetches some data from a database and returns it in a neatly packaged HTTP response.
-
-##### /React-FE
-
-This project is the face of the whole application. It contains a UI and makes calls to the
-backend project. It uses the async and await keywords to allow for asynchronous
-communication.
-
----
-#### /GithubRepo
-
-In the “FE” repo you’ll find a react application with serves as the frontend portion of the 
-complete app. It sends requests to other applications to retrieve/send data and uses asynchronous JavaScript. In another repo containing “BE” you’ll find a backend application which is responsible for interacting with a database.
-
-### LO3 - You choose and implement the most suitable agile software development method for your software project.
-
-#### /GithubRepo/Projects	
-
-The project is divided into sprints. During these sprints a certain portion of the project is focused on and at the end of the sprint we upload the material that has been created during the sprint. Using GitHub Projects I also keep track of tasks and issues that have to be worked on. 
-
-### LO8 - You act in a professional manner during software development and learning.
-
-#### /Doc
-
-Some of the docs (Authentication) were made with a teammate (Jordy).	We researched
-the topic and described our findings. We went through the different concepts and their 
-methods and made a choice as to which one to use.
-
-## Sprint 2
-
-In sprint 2, I continued to create documentation for topics I've done research on. I did some research and worked with OAuth 2 from Google. I tried to implement that together with Access Tokens. I also researched Spring Boot to see what it's like to work with. I have also agreed with Jordy that we will do the two researches together for our individual project. We had a short conversation with Leon about this and agreed that we would look at CORS & CSRF as research topics. We will also see if we can integrate Git Flow into our research.
-
-*Added to:*
-
-### LO1 - You design and build user-friendly, full-stack web applications.
-
-#### /Doc
-
-##### /SpringBootDocumentation
-I wanted to add a service which would have a specific task. I decided to add a Spring Boot
-Application which would serve data, which my application can display to the user. To be able
-to use Spring Boot I had to do some research, as you have to do with every new framework
-you use. I noted the findings of my research in the mentioned document.
-
-#### /TestProjects
-
-##### /SpringBoot-BE
-
-I did some research on Spring Boot and watched some tutorials to get an idea on how it 
-works. After that I made a testproject to try and get it working myself. Very little was 
-needed to get a route working. After sending some requests I got the correct response back,
-I could start building microservices with Spring Boot after relatively little testing.
-
-#### /Github
-
-##### /S3-IP-FE-GokayAtalay
-
-In my repository I’ve added the documentation in markdown files so that they can be
-accessible to potential teammates. Those files can be used as guides to the ones who
-don’t have much knowledge about the subjects, that way they don’t have to do their
-own research.
-
-In the React repo specifically I’ve added basic features like context (to remember the user
-throughout the app) and routing, to navigate to different pages. On top of that I’ve added 
-authorization with access tokens which retrieves the user object and stores it in the
-session storage of the browser to keep the user saved during the session.
-
-I made a page containing an async method that calls the Spring Boot API and retrieves all
-tasks to show them to the logged in user. A user will later on be able to click on one of the
-tasks and view details to determine whether or not this task fits their skillset.
-
-##### /S3-IP-BE-GokayAtalay
-
-I configured the project to allow only one origin, my react application, instead of all origins.
-I’ve also converted the small research file into a 	markdown file, which makes it look better.
-
-##### /S3-IP-BE-SpringBoot-GokayAtalay
-
-Created a Spring Boot application which serves as an API for my frontend application. It
-contains a controller which will catch the requests and execute an according method. The 
-main method of the controller retrieves data from my MySQL database and returns it in a
-proper HTTP request. It also allows only one origin to make calls to the API, which is my
-React application.
-
----
-
-### LO2 - You use software tooling and methodology that continuously monitors and improve the software quality during software development.
-
-#### /Doc
-
-##### /AuthDocumentation
-I implemented security in my application because there will be a lot of user interaction. Creating your own authentication system can be unsafe, because you’ll likely overlook a lot of security concerns. For that reason, it’s best to leave that portion to someone who knows what they’re doing. That’s why I decided to implement OAuth with Google accounts. That way Google handles most of the authentication and just returns a response with which you can work.
-
-I’ve integrated OAuth w/ Access tokens into my React application and wrote down the
-Research in this document. It guides you through the process on how to implement this. This 
-portion of the app provides a bit of security for the user to have to authorize through their 
-Google accounts.
+| # | Title                           | Description                                                                                                                             |
+|---|---------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
+| 1 | Web application                 | You design and build user-friendly, full-stack web applications.                                                                        |
+| 2 | Software quality                | You use software tooling and methodology that continuously monitors and improve the software quality during software development.       |
+| 3 | Agile method                    | You choose and implement the most suitable agile software development method for your software project.                                 |
+| 4 | CI/CD                           | You design and implement a (semi)automated software release process that matches the needs of the project context.                      |
+| 5 | Cultural differences and ethics | You recognize and take into account cultural differences between project stakeholders and ethical aspects in software development.      |
+| 6 | Requirements and design         | You analyze (non-functional) requirements, elaborate (architectural) designs and validate them using multiple types of test techniques. |
+| 7 | Business processes              | You analyze and describe simple business processes that are related to your project.                                                    |
+|   | Professional                    | You act in a professional manner during software development and learning.                                                              |
 
 
-### LO8 - You act in a professional manner during software development and learning.
-	
-#### /GithubRepo/Gokay-Jordy-S3-Onderzoek
-I’m going to be working with Jordy for our researches. We created a GitHub repository in 
-which we will be saving our work. Also are we going to use Projects and pull requests to 
-keep track of our project.
+## 3. Researches
+
+During the entire semester, research is a big subject. You're constantly researching, whether it's to fulfill the learning outcomes or solely for your own knowledge. The researched topic include technologies (mostly frameworks), CI/CD, Agile working, Ethics and more. I have listed the reports that have come out of these researches below.
+
+### 3.1. CSRF
+
+For one of the two required researches I've decided to work with a classmate, Jordy. We have agreed with Leon van Bokhorst to do one of our researches about CSRF (Cross-Site Request Forgery). It's a way to perform attacks on webapps. It's important when it comes to webdevelopment to protect your webapps against such attacks.
+
+We have created a seperate Github organization for our researches and this one resides in it's own repository.
+
+[You can find our research here.](https://github.com/Gokay-Jordy-S3-Onderzoek/CSRF-Research)
+
+### 3.2. CORS
+
+*Coming Soon*
+
+### 3.3. Agile (Scrum)
+
+*Coming Soon*
+
+### 3.4. Ethics
+
+*Coming Soon*
+
+</br>
+
+## 4. Individual Project
+
+<h1 align="center">
+  Workethic
+  <br>
+</h1>
+
+<h4 align="center">A platform where small businesses can find workers for their tasks.</h4>
+</br>
+
+Inspired by: [Young creators](https://youngcreators.co)
+
+Workethic is a platform where small (or big, we don't discriminate) businesses can find workers who can take care of tasks that might need someone who knows what they're doing. 
+
+Need a danceteacher to fill in your spot while you're on vacation? Need someone to install the brand new oven for your bakery? Just open a new task and wait for your potential candidates to apply, you'll be notified per email when that happens.
+
+I use the SCRUM method of agile working for this project. The semester is divided into sprints, during which I focus on a specific area. I use Github projects to keep track of parts of the application I need to work on. I create issues for parts that need to be done and connect that issue to a merge when it's done. That way the project can be followed throughout it's development stage.
+</br>
+</br>
+
+### 4.1. Web application
+
+For the webapplication I've taken a look at distributed systems and how they work. I hadn't researched them before this semester, but turns out I had unknowingly worked with them, by using frontend apps to make API calls to external APIs. 
+
+I divided the webapp into a frontend application and multiple backend applications. The frontend application, which is made in [React](https://reactjs.org/), is responsible for the presentation of the webapp and making calls to backend applications.
+
+For the backend application, which is responsible for fetching and serving data, I've decided to use [Spring Boot](https://spring.io/projects/spring-boot). I've used C# a bunch, both before and during Fontys, so I wanted to try something else. Java is a language I've wanted to try for a while now so this was a good opportunity.
+
+Because I went for a distributed system approach, I'll be using a different program to create an endpoint for the creation of new records. To show the loosely-coupling of these projects, I'll be using a different framework for this project, I've chosen [ASP.Net Core](https://learn.microsoft.com/nl-nl/aspnet/core/?view=aspnetcore-6.0).
+
+#### Projects:
+
+-   [Frontend - React](https://github.com/WorkEthic-S3/S3-IP-FE-GokayAtalay)
+-   [Backend - Spring Boot](https://github.com/WorkEthic-S3/S3-IP-BE-SpringBoot-GokayAtalay)
+<!-- -   [Backend - Laravel](https://github.com/WorkEthic-S3/S3-IP-BE-GokayAtalay) -->
+</br>
+
+### 4.2. Software quality:
+
+#### Authentication
+
+For extra security I've decided to use authentication using OAuth 2.0 from Google. It's alot safer to use external authentication services which are built by people who know what they're doing. If someone were to make their own little system, it would be prone to vulnerabilities and could more easily be attacked.
+
+[You can find my OAuth guide in my frontend repository here.](https://github.com/WorkEthic-S3/S3-IP-FE-GokayAtalay/blob/main/Doc/OAuthDoc.md)
+
+#### Code reviews
+
+Before comitting, pushing and merging my code or researches, I make sure to have someone go over my code to make sure I'm not submitting anything that isn't supposed to be there. With code that can be as simple as showing someone on your laptop and have them go over it and ask questions about something they find questionable.
+
+With our research we took a different approach. Whenever someone commits, the other person will go over the text they comitted and pushed and comment if there is something that catches your attention. Not only that, but if somebody wants to merge their research piece, the other person has to approve the PR (Pull Request), before it can be merged. Because of that we're constantly going over each other's work and making sure what we're merging is up to standard. 👍
+
+#### Testing
+
+*Coming Soon* 
+
+### 4.3. Professional
+
+For my researches and group project I will be working with others, which requires you to use some sort of system and structure.
+
+For my researches I'm working with another classmate (Jordy). We created a [Github organization](https://github.com/Gokay-Jordy-S3-Onderzoek) in which we create repositories for our researches. Each repository has it's own ReadMe file, which will contain the research report.
+
+We divide the research equally so we can work independently from eachother. The research contains a main question, and is divided into multiple subquestions. Each person gets a number of subquestions to work on and merge into the development branch. The other person can comment on commits if there are obvious changes that need to be made.
+
+For each subquestion we create a seperate (feature-)branch, in which the person can freely work without any hassle. To be able to track the research better we create issues with the tasks that need to be completed, mainly an issue for each question. When a question is finished, reviewed and merged, we can close that issue and connect it to the corresponding merge.
+
+
+## 5. Group Project
