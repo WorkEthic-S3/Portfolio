@@ -17,7 +17,7 @@ This file serves as the reader's guide for my semester 3 portfolio. This portfol
 | 5 | Cultural differences and ethics | You recognize and take into account cultural differences between project stakeholders and ethical aspects in software development.      |
 | 6 | Requirements and design         | You analyze (non-functional) requirements, elaborate (architectural) designs and validate them using multiple types of test techniques. |
 | 7 | Business processes              | You analyze and describe simple business processes that are related to your project.                                                    |
-|   | Professional                    | You act in a professional manner during software development and learning.                                                              |
+| 8 | Professional                    | You act in a professional manner during software development and learning.                                                              |
 
 
 ## 3. Researches
