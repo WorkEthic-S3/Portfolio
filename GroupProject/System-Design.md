@@ -8,8 +8,8 @@ There are some things that need to be designed and thought about before an app c
 
 We made some frontend designs for some of the screens we were going to need. We sent them off to the POs and implemented their feedback.
 
-<img src="../Images/reservations-design.png" alt="reservations" width="200" height="450" />
-<img src="../Images/cars-design.png" alt="reservations" width="200" height="450" />
+<img src="../Images/reservations-design.png" alt="reservations" width="30%" />
+<img src="../Images/cars-design.png" alt="reservations" width="29.9%" />
 
 </br>
 
@@ -17,9 +17,33 @@ We made some frontend designs for some of the screens we were going to need. We 
 
 Another important part of the application is the database. All of the data is going to be stored there so it needs to be designed well so development can go smoothly. We started with a diagram, and constantly made small changes based on new findings to make the database work better.
 
-We have a bunch of tables working together that are connected with relations. We had to think about what data needs to be saved, and what data can be calculated inside of the applcation. This database model has also been placed in migration files so that teammembers can generate the database below by typing one command into their IDE.
+We have a bunch of tables working together that are connected with relations. We had to think about what data needs to be saved, and what data can be calculated inside of the application. This database model has also been placed in migration files so that teammembers can generate the database below by typing one command into their IDE.
 
-<img src="../Images/ClassDiagram_Proftaak.png" alt="reservations" width="450" height="400" />
+<img src="../Images/ClassDiagram_Proftaak.png" alt="reservations" width="75%"/>
+
+</br>
 
 ## Architecture Design
 
+We had to decide on the architecture of the application. We could either create a monolith application, in which the frontend and backend are combined into one project or go for a distributed architecture, the same one we learnt about during our individual projects. 
+
+Eventually we decided to go for a distributed architecture, to apply the knowledge from our individual projects and practice with new techniques.
+
+For authentication we decided to use a seperate service which stands seperate from the rest of our application. Using Google's authentication seemed to be the safest option for our project.
+
+<img src="../Images/architecture.png" alt="architecture" width="80%" />
+
+## Techstack
+
+Just as important, is the techstack. We could either go for a language/framework which was new to us, or play it safe and choose for one everyone had experience with. It seemed smarter to play it a bit safe in case the project would challenge us enough. We wouldn't want to place more obstacles in front of us unnecessarily.
+
+The techstack we went for comprises of:
+
+-   Frontend framework: React.
+-   Component library (frontend): Material UI & Bootstrap React.
+-   Backend framework: ASP.Net Core.
+-   Database: Microsoft SQL Server.
+
+Although not everyone was fluent in React, it would help making the UI a bit easier. The component libraries allowed us to focus more on the API and logic instead of having to style every component ourselves, thus saving us alot of time.
+
+<img src="../Images/techstack.png" alt="architecture" width="80%" />
