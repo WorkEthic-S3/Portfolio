@@ -38,7 +38,9 @@ We have created a seperate Github organization for our researches and this one r
 
 ### 3.3. Agile (Scrum)
 
-*Coming Soon*
+During the development of our groupproject application, we used an Agile method called Scrum. By using this method during our development-process, we learnt alot about how Scrum works and how you can properly implement it's practices to improve your team-collaboration. Below I linked a file in which I explain what Agile working is and what Scrum practices we used in our groupproject.
+
+[Agile working](/GroupProject/Agile.md)
 
 ### 3.4. Ethics
 
