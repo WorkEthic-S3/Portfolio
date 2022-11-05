@@ -83,7 +83,7 @@ Because I went for a distributed system approach, I'll be using a different prog
 <!-- -   [Backend - Laravel](https://github.com/WorkEthic-S3/S3-IP-BE-GokayAtalay) -->
 </br>
 
-### 4.2. Software quality:
+### 4.2. Software quality
 
 #### Authentication
 
@@ -113,3 +113,11 @@ For each subquestion we create a seperate (feature-)branch, in which the person 
 
 
 ## 5. Group Project
+
+For our groupproject we worked on a parking garage app. It is a project given to us by the employees of Mediaan. It is an app people can use to make reservations for parkingspots, drive into the garage without a reservation, pay their fees, and more.
+
+### 5.1. System Design
+
+The team has been working on all kinds of documentation to show the way our application was built. We have made screen designs, architecture designs and an entity relation-diagram. These items evolved throughout the development of the app to accurately display the changes that were made based on feedback and other findings.
+
+[You can view our system design here.](/GroupProject/System-Design.md)
