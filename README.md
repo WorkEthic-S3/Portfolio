@@ -111,7 +111,9 @@ For my researches I'm working with another classmate (Jordy). We created a [Gith
 
 We divide the research equally so we can work independently from eachother. The research contains a main question, and is divided into multiple subquestions. Each person gets a number of subquestions to work on and merge into the development branch. The other person can comment on commits if there are obvious changes that need to be made.
 
-For each subquestion we create a seperate (feature-)branch, in which the person can freely work without any hassle. To be able to track the research better we create issues with the tasks that need to be completed, mainly an issue for each question. When a question is finished, reviewed and merged, we can close that issue and connect it to the corresponding merge.
+For each subquestion we create a seperate (feature-)branch, in which the person can freely work without any hassle. He writes his portion of the research in that branch. When he decides that his portion is finished, he'll open a pull-request and request a review from the other person. The other person reviews the work and either approves or denies the PR. If the PR is denied, the original author makes the changes that are needed to be made, if the PR is approved, the person can merge the two branches.
+
+To be able to track the research better we create issues with the tasks that need to be completed, mainly an issue for each question. When a question is finished, reviewed and merged, we can close that issue and connect it to the corresponding merge.
 
 
 ## 5. Group Project
