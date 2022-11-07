@@ -76,7 +76,7 @@ I divided the webapp into a frontend application and multiple backend applicatio
 
 For the backend application, which is responsible for fetching and serving data, I've decided to use [Spring Boot](https://spring.io/projects/spring-boot). I've used C# a bunch, both before and during Fontys, so I wanted to try something else. Java is a language I've wanted to try for a while now so this was a good opportunity.
 
-Because I went for a distributed system approach, I'll be using a different program to create an endpoint for the creation of new records. To show the loosely-coupling of these projects, I'll be using a different framework for this project, I've chosen [ASP.Net Core](https://learn.microsoft.com/nl-nl/aspnet/core/?view=aspnetcore-6.0).
+Because I went for a distributed system approach, I'll be using a different framework to create an endpoint for the creation of new records. To show the loosely-coupling of these projects, I'll be using a different framework for this project, I've chosen [ASP.Net Core](https://learn.microsoft.com/nl-nl/aspnet/core/?view=aspnetcore-6.0).
 
 #### Projects:
 
