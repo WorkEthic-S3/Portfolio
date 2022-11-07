@@ -69,3 +69,10 @@ After dividing the work between teammembers, we assigned stories to teammembers 
 Each userstory has been divided into subtasks which can be registered under a productbacklog in Jira. If a userstory has enough tasks for multiple people to work on them, you can assign a person to a specific task. That way multiple people can be working on one userstory if it's necessary. Each subtask can be assigned it's own status on whether it's done or not. That allows the team to see what part of what userstory is or isn't finished.
 
 <img src="../Images/jira-userstory.png" alt="jira-userstory" width="90%" />
+
+## Sources
+- [What is Agile? - Atlassian](https://www.atlassian.com/agile)
+- [Agile 101 - Agile Alliance](https://www.agilealliance.org/agile101/)
+- [What Is Agile? And When to Use It - Coursera](https://www.coursera.org/articles/what-is-agile-a-beginners-guide)
+- [What is scrum? - Atlassian](https://www.atlassian.com/agile/scrum)
+- [What is Scrum? - Scrum.org](https://www.scrum.org/resources/what-is-scrum)
