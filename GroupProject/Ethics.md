@@ -55,3 +55,13 @@ So we decided to use OAuth 2.0 with Google. OAuth is a frequently used and trust
 The software needs to be working well for the end users that are going to be using it. For that the code needs to be tested. We have talked about the topic of testing and are going to be implementing tests for our code to make sure nothing breaks during the development phase. Even the features that have been tested and implemented by developers need to be checked constantly to make sure a new feature hasn't broken anything, and isn't discovered when it's too late.
 
 The team keeps an eye on each other's work aswell. For one, nobody is allowed (or able for that matter) to push code to the `main` branch. There's a seperate `development` branch from which other branches are created for specific features. When these features are finished the developer can open a `Pull Request` to merge the code with the `development` branch. Before that is able to happen, another developer has to approve the `Pull Request` first. That way we constantly keep an eye out for each other's code and make sure nothing weird is being pushed.
+
+## Sources
+
+-   [Code of Ethics](https://www.acm.org/code-of-ethics)
+-   [Computer Society - Code of Ethics](https://www.computer.org/education/code-of-ethics)
+-   [Government of Canada - What is Ethics?](https://www.canada.ca/en/treasury-board-secretariat/services/values-ethics/code/what-is-ethics.html)
+-   [Ethics unwrapped - Ethics](https://ethicsunwrapped.utexas.edu/glossary/ethics)
+
+-   [TechTarget - Ethical issues in Software Development](https://www.techtarget.com/searchsoftwarequality/tip/5-examples-of-ethical-issues-in-software-development)
+-   [Springer Link - Ethics in the Software Development Process](https://link.springer.com/article/10.1007/s13347-021-00451-w)
