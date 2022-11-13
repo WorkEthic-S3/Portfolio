@@ -44,7 +44,9 @@ During the development of our groupproject application, we used an Agile method 
 
 ### 3.4. Ethics
 
-*Coming Soon*
+Ethics come into play in many different areas in life and has been talked about for millennia. After software became something the everyday public came in contact with, ethics in software became even more important. I did some research about ethics and ethics in software, which can be found below through the following link:
+
+[Ethics in Software](/GroupProject/Ethics.md)
 
 </br>
 
