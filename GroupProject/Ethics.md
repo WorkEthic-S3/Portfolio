@@ -34,7 +34,7 @@ The software you create are able to reach huge audiences regardless of whether y
 
 The Code of Ethics and Professional Conduct talks about the guidelines to follow if someone works on software. Some of these might be more obvious than others. We all know that one of the first points to follow is to create software for the benefit of society, and shouldn't pose a threat to health and safety. That also means not create software for criminal goals, like exploiting the vulnerable.
 
-Another one that might be obvious is being truthful. That doesn't only mean, not stealing and things of that nature. It also means being truthful about one's experience or knowledge when it comes to the development of computer systems. Someone should not, for example, hide their lack of experience in order to achieve something, since it may have consequences in the future,
+Another one that might be obvious is being truthful. That doesn't only mean, not stealing and things of that nature. It also means being truthful about one's experience or knowledge when it comes to the development of computer systems. Someone should not, for example, hide their lack of experience in order to achieve something, since it may have consequences in the future.
 
 These are just some of the points talked about in the [Code of Ethics and Professional Conduct](https://www.acm.org/code-of-ethics). It has many more, equally as important, points explained in great detail.
 
