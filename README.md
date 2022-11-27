@@ -60,7 +60,8 @@ Ethics come into play in many different areas in life and has been talked about 
 <h4 align="center">A platform where small businesses can find workers for their tasks.</h4>
 </br>
 
-Inspired by: [Young creators](https://youngcreators.co)
+Inspired by: [Young creators](https://youngcreators.co)</br>
+To view the userstories, [click here](/IndividualProject/Userstories.md).
 
 Workethic is a platform where small (or big, we don't discriminate) businesses can find workers who can take care of tasks that might need someone who knows what they're doing. 
 
