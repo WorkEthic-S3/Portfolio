@@ -48,6 +48,12 @@ Ethics come into play in many different areas in life and has been talked about 
 
 [Ethics in Software](/GroupProject/Ethics.md)
 
+### 3.5. Cultural Differences
+
+Culture and cultural differences is an important subject in software development, because you'll be working with other people. That becomes even more apparent when working with international students/colleagues. I did some research into this topic and have noted my findings in the file linked below:
+
+[Cultural Differences](/GroupProject/Culture.md)
+
 </br>
 
 ## 4. Individual Project
