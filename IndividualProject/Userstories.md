@@ -8,6 +8,7 @@
 -   Tasks are displayed in a card.
 -   A card is clickable to navigate to the detailspage.
 -   App receives the saved tasks.
+-   User has to be logged in.
 
 ## As a task seeker, I want to be able to respond to an assignment after clicking on it, so that the client is informed of my interest.
 
