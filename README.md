@@ -4,7 +4,7 @@ My portfolio for semester 3 of the Software Engineering Bachelor's program, Font
 
 ## 1. Introduction
 
-This file serves as the reader's guide for my semester 3 portfolio. This portfolio contains the products I have developed during the semester. The products this portfolio contains include, but are not limited to: applications (frontend and backend), researches, software-technology guides and more. With these products I wish to prove that I have sufficient knowledge to have reached the learning outcomes. I'll be explaining each section and provide a link to the product the section talks about.
+This file serves as the reader's guide for my semester 3 portfolio. This portfolio contains the products I have developed during the semester. The products this portfolio contains include, but are not limited to: applications (frontend and backend), research reports, software-technology guides and more. With these products I wish to prove that I have sufficient knowledge to have reached the learning outcomes. I'll be explaining each section and provide a link to the product the section talks about.
 
 ## 2. Learning Outcomes
 
