@@ -26,7 +26,7 @@ During the entire semester, research is a big subject. You're constantly researc
 
 ### 3.1. CSRF
 
-For one of the two required researches I've decided to work with a classmate, Jordy. We have agreed with Leon van Bokhorst to do one of our researches about CSRF (Cross-Site Request Forgery). It's a way to perform attacks on webapps. It's important when it comes to webdevelopment to protect your webapps against such attacks.
+For both of the required researches I've decided to work with a classmate, Jordy. We have agreed with Leon van Bokhorst to do one of our researches about CSRF (Cross-Site Request Forgery). It's a way to perform attacks on webapps. It's important when it comes to webdevelopment to protect your webapps against such attacks.
 
 We have created a seperate Github organization for our researches and this one resides in it's own repository.
 
@@ -34,7 +34,9 @@ We have created a seperate Github organization for our researches and this one r
 
 ### 3.2. CORS
 
-*Coming Soon*
+For our second research we had agreed to do this one on CORS, it being a big topic in webdevelopment. Chances are high you've run into CORS and probably wasn't sure what caused it, same goes for us. By doing our second research about CORS we wanted to go in-depth to figure out how CORS works. Our research report can be found in the same organization by clicking the following link:
+
+[You can find our research here.](https://github.com/Gokay-Jordy-S3-Onderzoek/CORS-Research)
 
 ### 3.3. Agile (Scrum)
 
