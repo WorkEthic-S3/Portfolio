@@ -94,7 +94,6 @@ Because I went for a distributed system approach, I'll be using a different prog
 -   [Frontend - React](https://github.com/WorkEthic-S3/S3-IP-FE-GokayAtalay)
 -   [Backend - Spring Boot](https://github.com/WorkEthic-S3/S3-IP-BE-SpringBoot-GokayAtalay)
 <!-- -   [Backend - Laravel](https://github.com/WorkEthic-S3/S3-IP-BE-GokayAtalay) -->
-</br>
 
 ### 4.2. Software quality
 
