@@ -112,7 +112,11 @@ With our research we took a different approach. Whenever someone commits, the ot
 
 #### Testing
 
-*Coming Soon* 
+For the code that I've written I've setup some tests. In my React project I used `react testing library` to write tests which checked that the correct things were displayed on screen. Like how the loginpage should only be shown if the user is not logged in and how the contents of the navbar should change after a user logs in. That way there is a guarantee that none of those things breaks when developing the application further. And if something *does* break, the tests will notify the developer when the workflow runs, because the tests are run during the workflow on Github Actions.
+
+#### Code analysis
+
+I have setup an automated workflow on Github Actions and have integrated Sonarcloud for code analysis. What that does is analyze my code when the workflow runs for security issues, smelly code, among other things. Sonarcloud offers a great dashboard which shows you the analysis reports, so you can see the state of your code in one page. If you want to go into details you can, because you can click on one of the cards, for example when there is a security issue. Sonarcloud will show you what causes the issue, why it's an issue and how to fix it.
 
 ### 4.3. Professional
 
