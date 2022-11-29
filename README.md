@@ -77,7 +77,6 @@ Need a danceteacher to fill in your spot while you're on vacation? Need someone 
 
 I use the SCRUM method of agile working for this project. The semester is divided into sprints, during which I focus on a specific area. I use Github projects to keep track of parts of the application I need to work on. I create issues for parts that need to be done and connect that issue to a merge when it's done. That way the project can be followed throughout it's development stage.
 </br>
-</br>
 
 ### 4.1. Web application
 
