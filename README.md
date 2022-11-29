@@ -4,7 +4,7 @@ My portfolio for semester 3 of the Software Engineering Bachelor's program, Font
 
 ## 1. Introduction
 
-This file serves as the reader's guide for my semester 3 portfolio. This portfolio contains the products I have developed during the semester. The products this portfolio contains include, but are not limited to: applications (frontend and backend), researches, software-technology guides and more. With these products I wish to prove that I have sufficient knowledge to have reached the learning outcomes. I'll be explaining each section and provide a link to the product the section talks about.
+This file serves as the reader's guide for my semester 3 portfolio. This portfolio contains the products I have developed during the semester. The products this portfolio contains include, but are not limited to: applications (frontend and backend), research reports, software-technology guides and more. With these products I wish to prove that I have sufficient knowledge to have reached the learning outcomes. I'll be explaining each section and provide a link to the product the section talks about.
 
 ## 2. Learning Outcomes
 
@@ -26,7 +26,7 @@ During the entire semester, research is a big subject. You're constantly researc
 
 ### 3.1. CSRF
 
-For one of the two required researches I've decided to work with a classmate, Jordy. We have agreed with Leon van Bokhorst to do one of our researches about CSRF (Cross-Site Request Forgery). It's a way to perform attacks on webapps. It's important when it comes to webdevelopment to protect your webapps against such attacks.
+For both of the required researches I've decided to work with a classmate, Jordy. We have agreed with Leon van Bokhorst to do one of our researches about CSRF (Cross-Site Request Forgery). It's a way to perform attacks on webapps. It's important when it comes to webdevelopment to protect your webapps against such attacks.
 
 We have created a seperate Github organization for our researches and this one resides in it's own repository.
 
@@ -34,7 +34,9 @@ We have created a seperate Github organization for our researches and this one r
 
 ### 3.2. CORS
 
-*Coming Soon*
+For our second research we had agreed to do this one on CORS, it being a big topic in webdevelopment. Chances are high you've run into CORS and probably wasn't sure what caused it, same goes for us. By doing our second research about CORS we wanted to go in-depth to figure out how CORS works. Our research report can be found in the same organization by clicking the following link:
+
+[You can find our research here.](https://github.com/Gokay-Jordy-S3-Onderzoek/CORS-Research)
 
 ### 3.3. Agile (Scrum)
 
@@ -48,6 +50,12 @@ Ethics come into play in many different areas in life and has been talked about 
 
 [Ethics in Software](/GroupProject/Ethics.md)
 
+### 3.5. Cultural Differences
+
+Culture and cultural differences is an important subject in software development, because you'll be working with other people. That becomes even more apparent when working with international students/colleagues. I did some research into this topic and have noted my findings in the file linked below:
+
+[Cultural Differences](/GroupProject/Culture.md)
+
 </br>
 
 ## 4. Individual Project
@@ -60,14 +68,14 @@ Ethics come into play in many different areas in life and has been talked about 
 <h4 align="center">A platform where small businesses can find workers for their tasks.</h4>
 </br>
 
-Inspired by: [Young creators](https://youngcreators.co)
+Inspired by: [Young creators](https://youngcreators.co)</br>
+To view the userstories, [click here](/IndividualProject/Userstories.md).
 
 Workethic is a platform where small (or big, we don't discriminate) businesses can find workers who can take care of tasks that might need someone who knows what they're doing. 
 
 Need a danceteacher to fill in your spot while you're on vacation? Need someone to install the brand new oven for your bakery? Just open a new task and wait for your potential candidates to apply, you'll be notified per email when that happens.
 
 I use the SCRUM method of agile working for this project. The semester is divided into sprints, during which I focus on a specific area. I use Github projects to keep track of parts of the application I need to work on. I create issues for parts that need to be done and connect that issue to a merge when it's done. That way the project can be followed throughout it's development stage.
-</br>
 </br>
 
 ### 4.1. Web application
@@ -85,7 +93,6 @@ Because I went for a distributed system approach, I'll be using a different fram
 -   [Frontend - React](https://github.com/WorkEthic-S3/S3-IP-FE-GokayAtalay)
 -   [Backend - Spring Boot](https://github.com/WorkEthic-S3/S3-IP-BE-SpringBoot-GokayAtalay)
 <!-- -   [Backend - Laravel](https://github.com/WorkEthic-S3/S3-IP-BE-GokayAtalay) -->
-</br>
 
 ### 4.2. Software quality
 
@@ -103,7 +110,11 @@ With our research we took a different approach. Whenever someone commits, the ot
 
 #### Testing
 
-*Coming Soon* 
+For the code that I've written I've setup some tests. In my React project I used `react testing library` to write tests which checked that the correct things were displayed on screen. Like how the loginpage should only be shown if the user is not logged in and how the contents of the navbar should change after a user logs in. That way there is a guarantee that none of those things breaks when developing the application further. And if something *does* break, the tests will notify the developer when the workflow runs, because the tests are run during the workflow on Github Actions.
+
+#### Code analysis
+
+I have setup an automated workflow on Github Actions and have integrated Sonarcloud for code analysis. What that does is analyze my code when the workflow runs for security issues, smelly code, among other things. Sonarcloud offers a great dashboard which shows you the analysis reports, so you can see the state of your code in one page. If you want to go into details you can, because you can click on one of the cards, for example when there is a security issue. Sonarcloud will show you what causes the issue, why it's an issue and how to fix it.
 
 ### 4.3. Professional
 

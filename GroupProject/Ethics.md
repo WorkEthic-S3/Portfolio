@@ -30,6 +30,16 @@ Some of the guidelines from the Code of Ethics and Professional Conduct:
 
 The software you create are able to reach huge audiences regardless of whether your software is trying to entertain people, automate a process in their lives or assist them during tasks they have to perform. When dealing with software that can reach these big groups of people, developers have to be aware of the consequences their actions can bring with them and make choices with the public interest in mind.
 
+### What do you have to do as a software engineer to address ethical aspects in your work? 
+
+From the very beginning, when you're planning different aspects of your project, is when you have to include ethics in your decision making. There are many principles, guidelines, practices and more you have to take into consideration when designing your product. These put high standards on the way you communicate, handle user data, make sure your software is of the highest quality, serves the public in a positive way and more. All those points and the others mentioned in this document should be applied during the entire development process, by testing and requesting feedback.
+
+### How do you know that your ethical considerations match with those of other software engineers? 
+
+To make sure your considerations match with those of your colleagues, it is advised that you discuss these points at the start of the project with your team. This is where communication is important, to avoid conflicts of interest later on. Try to find out where everyone's priority lies and have a better understanding of how they view the issue.
+
+When you've discussed matters like these, it is recommended that you put everything into writing. Prioritize and document everything you've discussed to make sure you don't forget it and can reference to it in the future. Save it in a location where it's accessable to all teammembers like a repository. If changes do happen, make sure to update the document to accurately represent your agreement with the team.
+
 ### What can a developer do to make ethical sofware?
 
 The Code of Ethics and Professional Conduct talks about the guidelines to follow if someone works on software. Some of these might be more obvious than others. We all know that one of the first points to follow is to create software for the benefit of society, and shouldn't pose a threat to health and safety. That also means not create software for criminal goals, like exploiting the vulnerable.
