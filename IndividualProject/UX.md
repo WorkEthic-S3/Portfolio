@@ -10,7 +10,7 @@ Your application will be full of links that link to other pages or maybe even an
 
 Navigation links take a url portion as an attribute which you can use to specify to which url the app should navigate.
 ```html
- <a href="/tasks" className="px-3 py-2 mx-3 mt-2">Tasks</a>
+<a href="/tasks" className="px-3 py-2 mx-3 mt-2">Tasks</a>
 ```
 
 That piece of url should be registered as a route to show the user the correct page.
