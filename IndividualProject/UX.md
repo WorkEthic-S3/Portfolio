@@ -17,7 +17,7 @@ Let’s look at an example, let’s use [GoDaddy](https://www.godaddy.com/nl-nl)
 
 Down below is an example from around 2009. As you can see the page is incredibly cluttered. It’s hard to understand what’s going on, because there’s too much on the screen. It takes too long to get all the information, because it throws everything at you at once.
 
-<img src="../Images/godaddy-old.png" width="80%"/>
+<img src="../Images/godaddy-old.png" width="50%"/>
 </br>
 </br>
 
