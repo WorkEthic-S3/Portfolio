@@ -92,3 +92,9 @@ Down below is an example from around 2009. As you can see the page is incredibly
 Below is the GoDaddy site today. It’s a night and day difference. First thing you notice is that there’s less on the screen. A little bit of text you have to read, along with some pictures, and you already know what this website provides. It’s a lot cleaner, easier on the eyes and more aesthetically pleasing.
 
 <img src="../Images/godaddy-new.png" width="80%"/>
+
+## Pleasure
+
+When all points mentioned above are in place, the user has a good time using your product. Which is what you aim to achieve when designing your UX. You don’t want the user to leave with a bad taste in their mouth after using your application. There is a chance they’ll go looking somewhere else and not come back. There should be some pleasure when using your service to increase the chances of users coming back.
+
+The user doesn’t have to put in effort to be able to use your product. Finding their way around your application and performing certain tasks should take as little effort as possible. If the UX is designed well, there’s little room for users making mistakes. The application will seaminglessly guide the user through the process without them really noticing.
