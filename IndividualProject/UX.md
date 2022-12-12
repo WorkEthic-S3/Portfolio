@@ -89,8 +89,6 @@ Down below is an example from around 2009. As you can see the page is incredibly
 Below is the GoDaddy site today. It’s a night and day difference. First thing you notice is that there’s less on the screen. A little bit of text you have to read, along with some pictures, and you already know what this website provides. It’s a lot cleaner, easier on the eyes and more aesthetically pleasing.
 
 <img src="../Images/godaddy-new.png" width="80%"/>
-</br>
-</br>
 
 ## Pleasure
 
