@@ -85,16 +85,33 @@ Let’s look at an example, let’s use [GoDaddy](https://www.godaddy.com/nl-nl)
 Down below is an example from around 2009. As you can see the page is incredibly cluttered. It’s hard to understand what’s going on, because there’s too much on the screen. It takes too long to get all the information, because it throws everything at you at once.
 
 <img src="../Images/godaddy-old.png" width="50%"/>
-</br>
-</br>
-
 
 Below is the GoDaddy site today. It’s a night and day difference. First thing you notice is that there’s less on the screen. A little bit of text you have to read, along with some pictures, and you already know what this website provides. It’s a lot cleaner, easier on the eyes and more aesthetically pleasing.
 
 <img src="../Images/godaddy-new.png" width="80%"/>
+</br>
+</br>
 
 ## Pleasure
 
 When all points mentioned above are in place, the user has a good time using your product. Which is what you aim to achieve when designing your UX. You don’t want the user to leave with a bad taste in their mouth after using your application. There is a chance they’ll go looking somewhere else and not come back. There should be some pleasure when using your service to increase the chances of users coming back.
 
 The user doesn’t have to put in effort to be able to use your product. Finding their way around your application and performing certain tasks should take as little effort as possible. If the UX is designed well, there’s little room for users making mistakes. The application will seaminglessly guide the user through the process without them really noticing.
+
+## Responsive
+
+Not every user views your webapp on the same type of device. You don’t know whether that’s going to be a desktop, laptop, Ipad, phone or smart fridge. All these devices have different screen sizes and so need to display the data differently to make up for the size difference.
+
+When a site is not responsive, the contents are laid out the same for mobile as they would for desktop. That is obviously a problem, for desktop a layout might provide a clear overview, but that same layout is not going to work on mobile because, because there’s less space. To fix this the app should change the layout of the content if the screen is smaller.
+
+Items that are laid out horizontally should be laid out vertically, with less margins to make up for less space on smaller devices.
+
+In my application I render tasks in seperate cards, but those cards don't take in a lot of space when viewed on desktop. They have a width set that prevents it from stretching too much across the screen. But on mobile that width should be bigger, which is what I was able to achieve using Tailwind CSS.
+
+<img src="../Images/responsive-big-screen.png" width="60%"/>
+
+As you can see there's a lot of space left and right of those cards. I experimented with different widths to see what looked most natural on screen and eventually came across this.
+
+<img src="../Images/responsive-small-screen.png" width="40%"/>
+
+But on mobile I decided to shrink those empty spaces by increasing the width of the cards, since there's less room on mobile.
