@@ -1,5 +1,7 @@
 # How to determine the quality of the UX for my project?
 
+To determine the quality of the UX there are some general points to take into consideration. I did some research to try and find some of the most important ones, and ones that are applicable to my project. U(ser)X(perience) is an important topic, because it's going to determine whether the users of your application will be having an easy time using it, making it more likely they'll come back to use your product. In this report I've noted the points that I found, explained them and showing some examples.
+
 ## Functionality
 
 Whenever a user visits your application, it should always be working as intended. If a potential customer visits your website to take a look at your service, but sees that the website is broken, he or she will instantly lose trust and have no faith in your product. All the components in it should be working so as to not scare someone away.
@@ -113,3 +115,14 @@ As you can see there's a lot of space left and right of those cards. I experimen
 <img src="../Images/responsive-small-screen.png" width="40%"/>
 
 But on mobile I decided to shrink those empty spaces by increasing the width of the cards, since there's less room on mobile.
+
+## Sources
+
+- Little, J., Idler, S., Eggspert, T., Miller, C. R., Abbamonte, K., &amp; Wells, R. (2019, January 30). User experience design: 6 simple steps for developing your UX design process. The Daily Egg. Retrieved December 13, 2022, from https://www.crazyegg.com/blog/user-experience-design/ 
+- Miller, C. R., Idler, S., Eggspert, T., Abbamonte, K., Little, J., &amp; Wells, R. (2020, June 26). Website navigation: Tips, examples and best practices. The Daily Egg. Retrieved December 13, 2022, from https://www.crazyegg.com/blog/website-navigation/ 
+- Leuftink, M. (2020, June 9). Wat is ux design? en waarom is Het Belangrijk? Sageon. Retrieved December 13, 2022, from https://www.sageon.nl/wat-is-ux-design/ 
+- Erdem, S., Cakanel, E., Alban, S., &amp; Kurban, C. (2022, November 16). 20 fundamental UX design principles a designer has to live by. UserGuiding. Retrieved December 13, 2022, from https://userguiding.com/blog/ux-design-principles/#ftoc-heading-18 
+- 7 fundamental ux design principles all designers should know. UX Design Institute. (2022, June 23). Retrieved December 13, 2022, from https://www.uxdesigninstitute.com/blog/ux-design-principles/ 
+- World Leaders in Research-Based User Experience. (n.d.). 10 usability heuristics for user interface design. Nielsen Norman Group. Retrieved December 13, 2022, from https://www.nngroup.com/articles/ten-usability-heuristics/ 
+- White, C., Caroline White Caroline WhiteA CareerFoundry graduate, White, C. W. C., White, C., &amp; graduate, A. C. F. (2021, August 5). Why simplicity is so incredibly important in UX design. CareerFoundry. Retrieved December 13, 2022, from https://careerfoundry.com/en/blog/ux-design/how-important-is-simplicity-in-ux-design/ 
+- Schroeter, E., Emerson Schroeter Emerson SchroeterEmerson is a New Mexican transplant to Berlin. They read, Schroeter, E. S. E., Schroeter, E., &amp; Emerson is a New Mexican transplant to Berlin. They read. (2021, August 6). 11 usability heuristics for UX Designers (with examples!). CareerFoundry. Retrieved December 13, 2022, from https://careerfoundry.com/en/blog/ux-design/usability-heuristics/ 
