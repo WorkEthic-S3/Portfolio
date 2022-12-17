@@ -1,5 +1,13 @@
 # Userstories Workethic
 
+## Definition of Done *(Applies to all userstories)*
+-   All acceptance criteria are functional.
+-   Code compiles/project builds without errors.
+-   Code has been checked and approved.
+-   Integration/Unit tests passed.
+-   Workflow successfully finished.
+-   Documentation has been updated.
+
 ## As a task seeker, I want to see a list of jobs, so I can see which ones are available.
 
 ### Acceptence criteria
