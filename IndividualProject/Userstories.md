@@ -35,3 +35,4 @@
 -   A client can navigate to a "new task" page.
 -   Client can fill in details of their task.
 -   Client can save the task.
+-   Client can prioritize their task.
