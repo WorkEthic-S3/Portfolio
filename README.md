@@ -110,6 +110,11 @@ For each subquestion we create a seperate (feature-)branch, in which the person 
 
 To be able to track the research better we create issues with the tasks that need to be completed, mainly an issue for each question. When a question is finished, reviewed and merged, we can close that issue and connect it to the corresponding merge.
 
+### 4.4. Outsourcing
+
+To end the semester we were asked to develop a feature from another student's project. This was to show whether your project was setup in a way that other developers could work in it without issues. To find my report on it view below document:
+
+[Outsource Feature](/IndividualProject/Outsource.md)
 
 ## 5. Group Project
 
