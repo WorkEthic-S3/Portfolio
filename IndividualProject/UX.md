@@ -116,6 +116,15 @@ As you can see there's a lot of space left and right of those cards. I experimen
 
 But on mobile I decided to shrink those empty spaces by increasing the width of the cards, since there's less room on mobile.
 
+## Conclusion
+
+Above points might seem very obvious and straightforward but they're really important points to consider. When all of those are done correctly, the user has no idea of what's happening. Consider loadingtimes for example. If an application loads fast, the user doesn't even think about loadingtimes. When the application loads slowly, the user instantly notices and start to think about the performance of the application.
+
+Take this famous quote from Jared Spool as an example:
+> Good design, when it’s done well, becomes invisible. It’s only when it’s done poorly that we notice it.
+
+You want the experience of the user to be as smooth as possible, because of which they won't even have to think about the flow of your application and can focus on the reason they're using your app in the first place. If users notice that it's easy working with your solution, they'll definitely be using your products more. Nobody wants to be fighting with the software they're using.
+
 ## Sources
 
 - Little, J., Idler, S., Eggspert, T., Miller, C. R., Abbamonte, K., &amp; Wells, R. (2019, January 30). User experience design: 6 simple steps for developing your UX design process. The Daily Egg. Retrieved December 13, 2022, from https://www.crazyegg.com/blog/user-experience-design/ 
