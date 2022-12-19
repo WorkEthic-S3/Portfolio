@@ -149,3 +149,9 @@ Ethics come into play in many different areas in life and has been talked about 
 Culture and cultural differences is an important subject in software development, because you'll be working with other people. That becomes even more apparent when working with international students/colleagues. I did some research into this topic and have noted my findings in the file linked below:
 
 [Cultural Differences](/GroupProject/Culture.md)
+
+### 5.5. Business Process
+
+With software you come into contact with business processes and have to think about them. Using your software you can increase the speed, automate and do other things with these processes. i did some reseach and noted my findings in the document below:
+
+[Business Process](/GroupProject/BusinessProcess.md)
