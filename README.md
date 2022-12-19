@@ -38,24 +38,6 @@ For our second research we had agreed to do this one on CORS, it being a big top
 
 [You can find our research here.](https://github.com/Gokay-Jordy-S3-Onderzoek/CORS-Research)
 
-### 3.3. Agile (Scrum)
-
-During the development of our groupproject application, we used an Agile method called Scrum. By using this method during our development-process, we learnt alot about how Scrum works and how you can properly implement it's practices to improve your team-collaboration. Below I linked a file in which I explain what Agile working is and what Scrum practices we used in our groupproject.
-
-[Agile working](/GroupProject/Agile.md)
-
-### 3.4. Ethics
-
-Ethics come into play in many different areas in life and has been talked about for millennia. After software became something the everyday public came in contact with, ethics in software became even more important. I did some research about ethics and ethics in software, which can be found below through the following link:
-
-[Ethics in Software](/GroupProject/Ethics.md)
-
-### 3.5. Cultural Differences
-
-Culture and cultural differences is an important subject in software development, because you'll be working with other people. That becomes even more apparent when working with international students/colleagues. I did some research into this topic and have noted my findings in the file linked below:
-
-[Cultural Differences](/GroupProject/Culture.md)
-
 </br>
 
 ## 4. Individual Project
@@ -128,6 +110,17 @@ For each subquestion we create a seperate (feature-)branch, in which the person 
 
 To be able to track the research better we create issues with the tasks that need to be completed, mainly an issue for each question. When a question is finished, reviewed and merged, we can close that issue and connect it to the corresponding merge.
 
+### 4.4. UX
+
+UX is a big part of applications, you want the customer/client to have a good time while using your product. Because if that's the case, they'll keep coming back and possibly recommend you to future customers/clients. I did some research into this topic to see what comes into play when designing UX and have noted my findings in the document below:
+
+[UX research](/IndividualProject/UX.md)
+
+### 4.5. Outsourcing
+
+To end the semester we were asked to develop a feature from another student's project. This was to show whether your project was setup in a way that other developers could work in it without issues. To find my report on it view below document:
+
+[Outsource Feature](/IndividualProject/Outsource.md)
 
 ## 5. Group Project
 
@@ -138,3 +131,27 @@ For our groupproject we worked on a parking garage app. It is a project given to
 The team has been working on all kinds of documentation to show the way our application was built. We have made screen designs, architecture designs and an entity relation-diagram. These items evolved throughout the development of the app to accurately display the changes that were made based on feedback and other findings.
 
 [You can view our system design here.](/GroupProject/System-Design.md)
+
+### 5.2. Agile (Scrum)
+
+During the development of our groupproject application, we used an Agile method called Scrum. By using this method during our development-process, we learnt alot about how Scrum works and how you can properly implement it's practices to improve your team-collaboration. Below I linked a file in which I explain what Agile working is and what Scrum practices we used in our groupproject.
+
+[Agile working](/GroupProject/Agile.md)
+
+### 5.3. Ethics
+
+Ethics come into play in many different areas in life and has been talked about for millennia. After software became something the everyday public came in contact with, ethics in software became even more important. I did some research about ethics and ethics in software, which can be found below through the following link:
+
+[Ethics in Software](/GroupProject/Ethics.md)
+
+### 5.4. Cultural Differences
+
+Culture and cultural differences is an important subject in software development, because you'll be working with other people. That becomes even more apparent when working with international students/colleagues. I did some research into this topic and have noted my findings in the file linked below:
+
+[Cultural Differences](/GroupProject/Culture.md)
+
+### 5.5. Business Process
+
+With software you come into contact with business processes and have to think about them. Using your software you can increase the speed, automate and do other things with these processes. i did some reseach and noted my findings in the document below:
+
+[Business Process](/GroupProject/BusinessProcess.md)
