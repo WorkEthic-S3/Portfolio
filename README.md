@@ -98,7 +98,24 @@ For the code that I've written I've setup some tests. In my React project I used
 
 I have setup an automated workflow on Github Actions and have integrated Sonarcloud for code analysis. What that does is analyze my code when the workflow runs for security issues, smelly code, among other things. Sonarcloud offers a great dashboard which shows you the analysis reports, so you can see the state of your code in one page. If you want to go into details you can, because you can click on one of the cards, for example when there is a security issue. Sonarcloud will show you what causes the issue, why it's an issue and how to fix it.
 
-### 4.3. Professional
+### 4.3. CI/CD
+
+After some researching I setup automated processes that run whenever I push to the main branch in both the frontend and backend repositories. These processes are defined as workflows in yaml files that contain a set of instructions that are responsible for the following:
+
+- Building the project.
+- Running the tests.
+- Building Docker images.
+- Pushing the images to DockerHub.
+- Run codeanalysis using Sonarcloud.
+
+<img src="Images/github-actions-workflow.png" width="80%"/></br>
+*Github Actions workflow run example*
+
+For my backend I have written a docker-compose file that will quickly build the backend together with a database which will run on your localhost without needing to import the database yourself. Which can be found in my [backend repository](https://github.com/WorkEthic-S3/Backend-Java/tree/main/S3-IP-BE-SpringBoot-GokayAtalay).
+
+I have written a document which goes through the steps and explains how I setup this workflow, that document can be found [here](https://github.com/WorkEthic-S3/Frontend/blob/main/Doc/CICD.md).
+
+### 4.4. Professional
 
 For my researches and group project I will be working with others, which requires you to use some sort of system and structure.
 
@@ -110,13 +127,13 @@ For each subquestion we create a seperate (feature-)branch, in which the person 
 
 To be able to track the research better we create issues with the tasks that need to be completed, mainly an issue for each question. When a question is finished, reviewed and merged, we can close that issue and connect it to the corresponding merge.
 
-### 4.4. UX
+### 4.5. UX
 
 UX is a big part of applications, you want the customer/client to have a good time while using your product. Because if that's the case, they'll keep coming back and possibly recommend you to future customers/clients. I did some research into this topic to see what comes into play when designing UX and have noted my findings in the document below:
 
 [UX research](/IndividualProject/UX.md)
 
-### 4.5. Outsourcing
+### 4.6. Outsourcing
 
 To end the semester we were asked to develop a feature from another student's project. This was to show whether your project was setup in a way that other developers could work in it without issues. To find my report on it view below document:
 
